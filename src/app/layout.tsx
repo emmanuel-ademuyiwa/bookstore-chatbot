@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang='en'>
+    <html lang="en">
       <Providers>
         <body className={inter.className}>
           <Chat />
@@ -24,5 +24,5 @@ export default function RootLayout({
         </body>
       </Providers>
     </html>
-  )
+  );
 }
